@@ -1,0 +1,10 @@
+package com.akrcode.akr.serviceImpl;
+
+import org.springframework.stereotype.Service;
+
+import com.akrcode.akr.service.PurchaseService;
+
+@Service
+public class PurchaseServiceImpl  implements  PurchaseService{
+
+}

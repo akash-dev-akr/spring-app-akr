@@ -1,0 +1,30 @@
+package com.akrcode.akr.model;
+
+import java.math.BigDecimal;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+@Entity
+@Table(name = "product_tracker")
+public class PurchaseMasterModel {
+
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private String bp_code;
+	private String bp_name;
+	private String yield_uom;
+	private BigDecimal actual_yield_qty;
+	private Integer orgid;
+	
+	import jakarta.persistence.*;
+	import lombok.Data;
+	import java.math.BigDecimal;
+	import java.time.LocalDateTime;
+
+	
+}

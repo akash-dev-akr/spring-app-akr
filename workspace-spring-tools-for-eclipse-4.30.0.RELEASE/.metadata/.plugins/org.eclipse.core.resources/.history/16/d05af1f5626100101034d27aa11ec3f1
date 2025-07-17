@@ -1,0 +1,11 @@
+package com.akrcode.akr.dao;
+
+import java.util.Map;
+
+import org.springframework.web.multipart.MultipartFile;
+
+public interface PurchaseDao {
+
+	Map<String, Object> readAndSaveFromFile(MultipartFile file);
+
+}

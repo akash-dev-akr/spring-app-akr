@@ -1,0 +1,59 @@
+package com.akrcode.akr.model;
+
+import java.math.BigDecimal;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "product_tracker")
+public class PurchaseMasterModel {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private String category;
+
+	@Column(name = "sub_category")
+	private String sub_category;
+
+	private String code;
+
+	private String product_name;
+
+	private String supplier;
+
+	private BigDecimal budget_qty;
+	private BigDecimal budget_value;
+
+	private Integer purcahsed_qty;
+
+	private Integer purcahsed_value;
+
+	private Integer min_stock_qty;
+
+	private Integer max_stock_qty;
+
+	private Integer moq;
+	private Integer lead_time;
+
+	private Integer schedule;
+
+	private Integer stock_in_hand;
+
+	private Integer stock_in_hand_value;
+
+	private String status;
+
+	private String remarks;
+
+	private LocalDateTime updated_at;
+
+	private LocalDateTime created_at;
+
+	private LocalDateTime date;
+
+}

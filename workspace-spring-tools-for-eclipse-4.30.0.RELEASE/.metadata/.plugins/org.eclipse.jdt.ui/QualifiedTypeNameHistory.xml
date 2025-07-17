@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.dao.UserDao"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.daoImpl.UserDaoImpl"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.repo.MobileNumberPero"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.dao.ContactDao"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.daoImpl.ContactDaoImpl"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.repo.ContactRepo"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.model.ContactModel"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.service.ContactService"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.service.UserService"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.serviceimpl.ContactServiceImpl"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.model.MobileNumberModel"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.model.AddressModel"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.model.WebsiteModel"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.model.EmailModel"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.service.PurchaseService"/>
+    <fullyQualifiedTypeName name="com.akrcode.akr.dao.PurchaseDao"/>
+    <fullyQualifiedTypeName name="io.jsonwebtoken.io.IOException"/>
+</qualifiedTypeNameHistroy>

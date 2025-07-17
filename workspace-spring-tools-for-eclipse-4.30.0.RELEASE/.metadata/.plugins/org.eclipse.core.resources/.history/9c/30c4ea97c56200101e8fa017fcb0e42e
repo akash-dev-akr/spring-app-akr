@@ -1,0 +1,5 @@
+package com.akrcode.akr.controller;
+@Controller
+public class PurchaseController {
+
+}

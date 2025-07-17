@@ -1,0 +1,5 @@
+package com.akrcode.akr.dao;
+
+public interface PurchaseDao {
+
+}
